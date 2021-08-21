@@ -1,0 +1,19 @@
+.notice
+{
+  margin-left: 10px;
+}
+.music
+{
+  display:flex;
+
+}
+.music1
+{
+  flex: 0.5;
+  color: powderblue;
+}
+.music2
+{
+  flex: 0.5;
+  color:powderblue;
+}

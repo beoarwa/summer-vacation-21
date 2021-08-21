@@ -1,0 +1,93 @@
+body{
+
+}
+.bookcover{
+
+}
+.bookdot{
+
+}
+.page
+{
+
+}
+.left
+{
+
+}
+.mid
+{
+
+}
+.right
+{
+
+}
+.today
+{
+
+}
+.proflie
+{
+
+}
+.title
+{
+
+
+}
+.main{
+
+}
+.menu
+{
+
+}
+.image{
+
+}
+.item
+{
+ display:flex;
+}
+.item2
+{
+
+}
+h3
+{
+
+}
+.introduct
+{
+
+}
+.song
+{
+  flex:0.5;
+  margin-left:"10%";
+}
+.number
+{
+  flex:0.5;
+  color:mediumpurple;
+  font-size: 20px;
+}
+.notice
+{
+  margin-left:"10%";
+}
+h3
+{
+  margin-left:10px;
+  border-bottom: 1px solid gray;
+  margin-right:10px;
+}
+.song
+{
+ flex:0.7;
+}
+.number
+{
+  flex:0.3;
+}

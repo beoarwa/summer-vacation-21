@@ -1,0 +1,247 @@
+body{
+  background-image:url("../static/images/pattern.png");
+  background-color: mediumpurple;
+  background-size: 100px;
+  position:fixed;
+  left:0pt;
+  right:0pt;
+  top:0pt;
+  bottom:0pt;
+}
+.bookcover{
+  position: relative;
+  background-color: mediumorchid;
+  width:1000px;
+  height:500px;
+  border-radius: 10px;
+  margin:30px auto;
+}
+.bookdot{
+  position:absolute;
+  left: 20px;
+  top: 20px;
+
+  background-color:lavender;
+  width: 950px;
+  height: 450px;
+  border-radius: 10px;
+  border:1px dashed white;
+}
+.page
+{
+  position:absolute;
+  left: 15px;
+  right: 15px;
+  width: 930px;
+  height:430px;
+  border-radius: 10px;
+  background-color: lavender;
+  left:11px;
+  top:11px;
+  display: flex;
+}
+.left
+{
+  flex:1;
+  display:flex;
+  flex-direction: column;
+  margin-left: 3%;
+  margin-top:1%;
+}
+.mid
+{
+  margin-left: 3%;
+  margin-top: 2%;
+  flex:2.8;
+  display:flex;
+  flex-direction: column;
+  margin-bottom:1%;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.right
+{
+  flex:0.7;
+  display:flex;
+  flex-direction: column;
+  margin-top:2%;
+  margin-left: 4%;
+}
+.today
+{
+  flex:0.06;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.proflie
+{
+  border:1px solid gray;
+  height:89%;
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
+  display:flex;
+  flex-direction: column;
+  font-family: 'Do Hyeon', sans-serif;
+
+
+
+}
+.title
+{
+  height:8%;
+  border-radius: 10px;
+  width:100%;
+  background-color: lavender;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 15px;
+}
+.main{
+  border: 1px solid gray;
+  height:85%;
+  border-radius: 10px;
+  width:100%;
+  background-color: white;
+  display:flex;
+  flex-direction: column;
+
+}
+.menu
+{
+
+  height:85%;
+  border-radius: 10px;
+  width:70%;
+
+  display:flex;
+  flex-direction: column;
+}
+.image{
+  margin-left:20%;
+  margin-top:2%;
+  margin-right:20%;
+  color:mediumorchid;
+  flex:0.3;
+}
+.notice
+{
+  flex: 0.1;
+}
+.item
+{
+  flex:0.45;
+  margin-left:5%;
+  margin-right:5%;
+
+}
+.item2
+{
+ flex:0.45;
+ margin-left:5%;
+ margin-right:5%;
+}
+
+.introduct
+{
+  flex: 0.7;
+  margin-left:12%;
+  margin-top:2%;
+  margin-right:4%;
+
+}
+
+.choose
+{
+  flex:2.3;
+  display:flex;
+  flex-direction: column;
+  color:white;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.home
+{
+  flex:0.1;
+  background-color: purple;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border-radius: 2px;
+}
+.diary
+{
+  flex:0.1;
+  background-color: purple;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border-radius: 2px;
+}
+.page1
+{
+  flex:0.1;
+  background-color: purple;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border-radius: 2px;
+}
+.page2
+{
+  flex:0.1;
+  background-color: purple;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border-radius: 2px;
+}
+.profile-dropdown {
+  flex: 0;
+  border: 1px solid #c9d4da;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  position: relative;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 4.5px solid transparent;
+  border-right: 4.5px solid transparent;
+  border-top: 5px solid #838383;
+}
+
+.dropdown-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.profile-dropdown:hover > .dropdown-content {
+  display: block;
+}
+
+.dropdown-content > a {
+  display: block;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding: 6px;
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-content > a:hover {
+  background-color: #f1f1f1;
+}
+.contents
+{
+  font-family: 'Do Hyeon', sans-serif;
+}
+a { text-decoration: none;  }
+a:visited { text-decoration: blue; }
+a:hover { text-decoration: blue; }
+a:focus { text-decoration: blue; }
+a:hover, a:active { text-decoration: none; }

@@ -1,0 +1,87 @@
+.bookcover{
+
+}
+.bookdot{
+
+}
+.page
+{
+
+}
+.left
+{
+
+}
+.mid
+{
+
+}
+.right
+{
+
+}
+.today
+{
+
+}
+.proflie
+{
+
+}
+.title
+{
+
+
+}
+.main{
+
+}
+.menu
+{
+
+}
+.image{
+
+}
+.item
+{
+ display: flex;
+}
+.item2
+{
+
+}
+.diary1
+{
+  flex:1;
+}
+
+}
+.introduct
+{
+  color:mediumorchid;
+}
+h3
+{
+  border-bottom: 1px solid gray;
+  margin-right: 10px;
+}
+.notice
+{
+  margin-left: 10px;
+}
+.diary
+{
+  font-size: 15px;
+  color:purple;
+}
+.button
+{
+  margin-top:2px;
+  margin-left:410px;
+}
+.날짜
+{
+  font-size: 5px;
+  color: purple;
+}

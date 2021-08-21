@@ -1,0 +1,94 @@
+.bookcover{
+
+}
+.bookdot{
+
+}
+.page
+{
+
+}
+.left
+{
+
+}
+.mid
+{
+
+}
+.right
+{
+
+}
+.today
+{
+
+}
+.proflie
+{
+
+}
+.title
+{
+
+
+}
+.main{
+
+}
+.menu
+{
+
+}
+.image{
+
+}
+.item
+{
+ display: flex;
+}
+.photo1
+{
+  flex: 0.32;
+  margin-right: 5px;
+}
+.photo2
+{
+  flex: 0.32;
+  margin-right: 5px;
+}
+.photo3
+{
+  flex: 0.32;
+  margin-right: 5px;
+}
+.item2
+{
+ display: flex;
+}
+.photo4
+{
+  flex: 0.32;
+  margin-right: 5px;
+}
+.photo5
+{
+  flex: 0.32;
+  margin-right: 5px;
+}
+.photo6
+{
+  flex: 0.32;
+  margin-right: 5px;
+}
+
+
+}
+.introduct
+{
+  color:mediumorchid;
+}
+.notice
+{
+  margin-left: 10px;
+}

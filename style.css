@@ -1,0 +1,143 @@
+body{
+  background-image:url("../static/images/pattern.png");
+  background-color: mediumpurple;
+  background-size: 100px;
+  position:fixed;
+  left:0pt;
+  right:0pt;
+  top:0pt;
+  bottom:0pt;
+}
+.bookcover{
+  position: relative;
+  background-color: mediumorchid;
+  width:1000px;
+  height:500px;
+  border-radius: 10px;
+  margin:30px auto;
+}
+.bookdot{
+  position:absolute;
+  left: 20px;
+  top: 20px;
+
+  background-color:lavender;
+  width: 950px;
+  height: 450px;
+  border-radius: 10px;
+  border:1px dashed white;
+}
+.page
+{
+  position:absolute;
+  left: 15px;
+  right: 15px;
+  width: 930px;
+  height:430px;
+  border-radius: 10px;
+  background-color: lavender;
+  left:11px;
+  top:11px;
+  display: flex;
+}
+.left
+{
+  flex:1;
+  display:flex;
+  flex-direction: column;
+  margin-left: 3%;
+  margin-top:1%;
+}
+.mid
+{
+  margin-left: 3%;
+  margin-top: 2%;
+  flex:2.8;
+  display:flex;
+  flex-direction: column;
+  margin-bottom:1%;
+}
+.right
+{
+  flex:0.7;
+  display:flex;
+  flex-direction: column;
+  margin-top:2%;
+  margin-left: 4%;
+}
+.today
+{
+  flex:0.06;
+}
+.proflie
+{
+  border:1px solid gray;
+  height:89%;
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
+  display:flex;
+  flex-direction: column;
+}
+.title
+{
+
+  height:8%;
+  border-radius: 10px;
+  width:100%;
+  background-color: lavender;
+}
+.main{
+  border: 1px solid gray;
+  height:85%;
+  border-radius: 10px;
+  width:100%;
+  background-color: white;
+  display:flex;
+  flex-direction: column;
+}
+.menu
+{
+
+  height:85%;
+  border-radius: 10px;
+  width:70%;
+
+}
+.image{
+  margin-left:20%;
+  margin-top:2%;
+  margin-right:20%;
+  color:mediumorchid;
+  flex:0.3;
+}
+
+.item
+{
+  flex:0.45;
+  margin-left:5%;
+  margin-right:5%;
+}
+.item2
+{
+ flex:0.45;
+ margin-left:5%;
+ margin-right:5%;
+}
+h3
+{
+  border-bottom:1px solid gray;
+
+}
+.introduct
+{
+  flex: 0.7;
+  margin-left:12%;
+  margin-top:2%;
+  margin-right:4%;
+  color:mediumorchid;
+}
+.song
+{
+font-size: 1px;
+}
